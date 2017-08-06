@@ -7,8 +7,13 @@
 using namespace std;
 
 class MPC {
+
+
  public:
   MPC();
+
+  double latent_steering;
+  double latent_acc ;
 
   virtual ~MPC();
 
